@@ -6,5 +6,5 @@ Bir yılın artık olması için ya 400 ile modu 0 olmalı ya da 4 ile modu 0 ol
 */
 
 /* let yearEntered = parseInt(prompt("Yıl giriniz:"));
- */let leapYear    = (yearEntered % 400 == 0 || (yearEntered % 4 == 0 && yearEntered % 100 != 0));
-console.log(`Girilen Yıl: ${yearEntered} Artık Yıl mı? ${leapYear}`);
+let leapYear    = (yearEntered % 400 == 0 || (yearEntered % 4 == 0 && yearEntered % 100 != 0));
+console.log(`Girilen Yıl: ${yearEntered} Artık Yıl mı? ${leapYear}`); */
