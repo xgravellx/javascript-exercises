@@ -32,6 +32,7 @@ function result(numbers) {
 }
 console.log(result(numbers));
 
+
 // Kısa versiyon
 function shortVersion1(numbers) {
     const result1 = numbers.filter(function (number) {
@@ -50,6 +51,8 @@ function shortVersion1(numbers) {
 }
 shortVersion1(numbers);
 
+
+
 // Kısa Verion Fat Arrow
 function shortVersion2 (numbers) {
     return numbers.filter(number => number % 2 !== 0)
@@ -57,3 +60,5 @@ function shortVersion2 (numbers) {
                 .reduce((generalTotal, number) => number > 10 ? generalTotal += number : generalTotal);                 
 }
 console.log(shortVersion2(numbers));
+
+console.log("******************");
